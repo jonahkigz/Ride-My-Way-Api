@@ -8,10 +8,6 @@ and passengers to join available ride offers.
 Build status of continuous integration i.e. travis, -
 Test coverage of code climate and coveralls -
 
-[![Build Status](https://travis-ci.org/reiosantos/Ride-my-way.svg?branch=develop)](https://travis-ci.org/reiosantos/Ride-my-way)
-[![Maintainability](https://api.codeclimate.com/v1/badges/3b09b9ffe616d7ba85e4/maintainability)](https://codeclimate.com/github/reiosantos/Ride-my-way/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/3b09b9ffe616d7ba85e4/test_coverage)](https://codeclimate.com/github/reiosantos/Ride-my-way/test_coverage)
-[![Coverage Status](https://coveralls.io/repos/github/reiosantos/Ride-my-way/badge.svg)](https://coveralls.io/github/reiosantos/Ride-my-way)
 
 ##Technologies used
 * Python 3.6
