@@ -6,11 +6,8 @@ Ride-my App is a carpooling application that provides drivers with the ability t
 join available ride offers
 
 Technologies used:
-
 Python 3.6 -
-.
 Flask - A microframework for Python
-
 Virtualenv - A tool to create isolated virtual environments
 
 
