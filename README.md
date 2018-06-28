@@ -10,6 +10,7 @@ Test coverage of code climate and coveralls -
 
 [![Build Status](https://travis-ci.org/jonahkigz/Ride-My-Way-Api.svg?branch=master)](https://travis-ci.org/jonahkigz/Ride-My-Way-Api)
 [![Coverage Status](https://coveralls.io/repos/github/jonahkigz/Ride-My-Way-Api/badge.svg?branch=master)](https://coveralls.io/github/jonahkigz/Ride-My-Way-Api?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/881bb003dd26c80d3fc4/maintainability)](https://codeclimate.com/github/jonahkigz/Ride-My-Way-Api/maintainability)
 
 
 ##Technologies used
