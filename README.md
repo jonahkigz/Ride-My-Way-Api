@@ -7,6 +7,7 @@ and passengers to join available ride offers.
 
 Build status of continuous integration i.e. travis, -
 Test coverage of code climate and coveralls -
+
 [![Build Status](https://travis-ci.org/jonahkigz/Ride-My-Way-Api.svg?branch=master)](https://travis-ci.org/jonahkigz/Ride-My-Way-Api)
 [![Coverage Status](https://coveralls.io/repos/github/jonahkigz/Ride-My-Way-Api/badge.svg?branch=master)](https://coveralls.io/github/jonahkigz/Ride-My-Way-Api?branch=master)
 
