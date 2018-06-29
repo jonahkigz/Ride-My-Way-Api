@@ -24,12 +24,12 @@ class TestCases(unittest.TestCase):
 #test for adding a single ride offer
     def test_addRide(self):
 
-        data = json.dumps(self.try_(1, "available_seats", "10/02/2009 10pm", "Mukono","Arua"))
+        data = json.dumps(self.try_(1, "4", "10/02/2009 10pm", "Mukono","Arua"))
 
         response = self.test_client.post('/api/v1/rides/create', data=data, headers=self.json_headers)
         result = json.loads(response.data.decode())
 
-        self.assertEqual(result, {'ride': self.try_(1, "available_seats", "10/02/2009 10pm", "Mukono","Arua")})
+        self.assertEqual(result, {'ride': self.try_(1, "4", "10/02/2009 10pm", "Mukono","Arua")})
         self.assertEqual(response.status_code, 200)
 
     def test_returnRide(self):
@@ -50,7 +50,7 @@ class TestCases(unittest.TestCase):
         else:
             results = json.loads(response.data.decode())
             print(response.data.decode())
-            self.assertEqual(results, {"rides": [self.try_(1, "available_seats", "10/02/2009 10pm", "Mukono","Arua")]})
+            self.assertEqual(results, {"rides": [self.try_(1, "4", "10/02/2009 10pm", "Mukono","Arua")]})
             self.assertEqual(response.status_code, 200)
 
     def test_removeRide(self):
